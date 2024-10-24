@@ -2,6 +2,10 @@
   "name": "ws-keylog",
   "module": "index.ts",
   "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
